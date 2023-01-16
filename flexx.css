@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+}
+
+h2 {
+    margin: 1rem;
+}
+
+.container {
+    background-color: aqua;
+    display: flex;
+    min-height: 100vh;
+}
+
+/* 
+.vertical {
+    flex-direction: column;
+    display: flex;
+    flex-grow: 1;
+}
+ */
+
+.row {
+    flex-direction: column;
+    display: flex;
+    flex-grow: 5;
+}
+
+/* top container */
+.child1 {
+    background-color: #D7E8D4;
+    order: 1;
+    flex-grow: 1;
+}
+
+.child2 {
+    background-color: yellowgreen;
+    order: 2;
+    flex-grow: 1;
+}
+
+/* middle container */
+.child3 {
+    background-color: white;
+    flex-direction: row;
+    display: flex;
+    flex-grow: 3;
+    order: 3;
+}
+
+.article {
+    flex-grow: 3;
+}
+
+.aside {
+    flex-grow: 1;
+    background-color: aqua;
+}
+
+.nav {
+    flex-grow: 1;
+    background-color: blueviolet;
+}
+
+/* bottom container */
+.child4 {
+    background-color: yellowgreen;
+    order: 4;
+    flex-grow: 1;
+}
